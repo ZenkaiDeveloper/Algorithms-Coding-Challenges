@@ -1,1 +1,1 @@
-# Algorithms-Coding-Challenges
+The idea of this repository is to try and solve an algorithim each day with multiple solutions. Most of these are probably going to be from FreeCode Camp and various online algorithm sites. If anyone can feel free to add new solutions.
