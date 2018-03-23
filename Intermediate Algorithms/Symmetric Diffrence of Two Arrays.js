@@ -17,3 +17,13 @@ function diffArray(arr1, arr2) {
   return newArr;
 }
 diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]);
+
+// Another more functional way to solev this problem is by using the filter method.
+function diffArray2 (arr1, arr2){
+  var combined = arr1.concat(arr2);
+  return combined.filter(function(num){
+    if(arr1.indexOf(num) === -1 || arr2.indexOf(num) === -1){
+      return num;
+    }
+  });
+}
