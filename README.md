@@ -1,1 +1,1 @@
-The idea of this repository is to try and solve an algorithim each day with at least one object oriented solution and a functional solution. Most of these are probably going to be from FreeCode Camp and various online algorithm sites. If anyone wants, they can feel free to add new solutions.
+A mash of coding challenge questions from various sites. Some questions are your traditional computer science algorithms.
