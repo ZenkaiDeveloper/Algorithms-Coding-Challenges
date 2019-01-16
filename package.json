@@ -1,0 +1,23 @@
+{
+  "name": "Algorithms-Coding-Challenges",
+  "version": "1.0.0",
+  "description": "The idea of this repository is to try and solve an algorithim each day with at least one object oriented solution and a functional solution. Most of these are probably going to be from FreeCode Camp and various online algorithm sites. If anyone wants, they can feel free to add new solutions.",
+  "main": "BinarySearch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenkaiDeveloper/Algorithms-Coding-Challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZenkaiDeveloper/Algorithms-Coding-Challenges/issues"
+  },
+  "homepage": "https://github.com/ZenkaiDeveloper/Algorithms-Coding-Challenges#readme",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}
