@@ -1,1 +1,1 @@
-A mash of coding challenge questions from various sites. Some questions are your traditional computer science algorithms.
+A mash of coding challenge questions from various sites. Some questions are your traditional computer science algorithms while other ones are more practical. Test files for the algorithms are written with the Jest testing platform.
