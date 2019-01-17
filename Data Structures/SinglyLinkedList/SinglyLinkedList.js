@@ -60,7 +60,7 @@ class SinglyLinkedList{
 
 //Add on a value to the front/head of the list.
   unshift(data){
-    let newNode = new Node(data)
+    let newNode = new Node(data);
     if (!this.head) {
       this.head = newNode;
       this.tail = newNode;
@@ -148,10 +148,12 @@ class SinglyLinkedList{
 
 }
 
-let list = new SinglyLinkedList()
-list.push("Hi")
-list.push("how")
-list.push("are")
+module.exports = { Node, SinglyLinkedList }
+
+// let list = new SinglyLinkedList()
+// list.push("Hi")
+// list.push("how")
+// list.push("are")
 
 // let first = new Node("Hi")
 // first.next = new Node("there")
