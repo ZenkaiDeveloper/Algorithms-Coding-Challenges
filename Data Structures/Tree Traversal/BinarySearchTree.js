@@ -87,6 +87,22 @@ class BinarySearchTree {
     }
     return data;
   }
+
+  DFSPreOrder(){
+    let visited = [];
+    let current = this.root;
+    let traverse = (node) => {
+      visited.push(node.value);
+      if (node.left) {
+        traverse(node.left);
+      }
+      if (node.right) {
+        traverse(node.right);
+      }
+    }
+    traverse(current);
+    return visited;
+  }
 }
 
 module.exports = { Node, BinarySearchTree };
